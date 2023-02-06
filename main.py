@@ -1,6 +1,4 @@
 import pygame
-import numpy as np
-
 
 # The real and imaginary parts of each complex number are calculated based on
 # the current pixel position on the screen. The number of iterations required
@@ -17,7 +15,7 @@ pygame.init()
 screen = pygame.display.set_mode((640, 640))
 
 # set max iterations -> Higher values for better results but slower performance
-max_iter = 256
+max_iter = 512
 
 # set range of values for the real part (x axis) and imaginary
 # (y axis) of the complex number to be used to generate fractal
