@@ -1,7 +1,6 @@
 import pygame
 import numpy as np
 
-# Visual representation of the Mandelbrot set
 
 # The real and imaginary parts of each complex number are calculated based on
 # the current pixel position on the screen. The number of iterations required
@@ -17,7 +16,7 @@ def color_map(iterations, max_iter):
 pygame.init()
 screen = pygame.display.set_mode((640, 640))
 
-# set max iterations
+# set max iterations -> Higher values for better results but slower performance
 max_iter = 256
 
 # set range of values for the real part (x axis) and imaginary
@@ -28,6 +27,8 @@ ymin, ymax = -1.5, 1.5
 # calculate the step size for each iteration
 dx = (xmax - xmin) / screen.get_width()
 dy = (ymax - ymin) / screen.get_height()
+
+# Visual representation of the Mandelbrot set. 
 
 # iterate over all pixels on screen and calculate real and imaginary part of complex number
 for i in range(screen.get_width()):
