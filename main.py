@@ -5,6 +5,8 @@ import pygame
 # for the complex number to diverge is calculated, and the color of the pixel
 # is set based on the number of iterations.
 
+# TODO: Optimize performance, add menu and GUI
+
 # color map function
 def color_map(iterations, max_iter):
     # modify to change color mapping
