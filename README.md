@@ -1,6 +1,6 @@
 # Boreal-Fractal-Symphony
 
-Generative fractals using algebra and pygame with support for Mandelbrot set.
+Generate fractals using algebra and pygame with support for Mandelbrot set.
 
 <h1>Example render:</h1>
 
